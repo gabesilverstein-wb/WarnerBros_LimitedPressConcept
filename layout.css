@@ -2,3 +2,51 @@
     margin: 40px;
    
 }
+
+
+@media (min-width: 900px) {
+
+    .movieposter {
+        margin-right: 20px;
+        width: 106px;
+        transition: 0.3s;
+    }
+    
+
+
+}
+
+
+@media (min-width: 1200px) {
+.movieposter-selected{
+    width: 150px;
+}
+    .movieposter {
+        margin-right: 20px;
+        width: 80px;
+        transition: 0.3s;
+    }
+    
+    .search-account-nav2 {
+        width: 220px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        margin-bottom: 0;
+       
+        list-style: none;
+    }
+
+}
+
+@media (min-width: 1400px) {
+
+    .movieposter {
+        margin-right: 20px;
+        width: 100px;
+        transition: 0.3s;
+    }
+    
+
+
+}

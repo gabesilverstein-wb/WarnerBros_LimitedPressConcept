@@ -27,6 +27,7 @@
 }
 
 .search-account-nav2 {
+    width: 200px;
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
@@ -165,13 +166,14 @@
 /* ---------------- SUPERTITLE LEFT COLUMN ------------------ */
 .supertitle {
     background-image: url("./images/KongSkullIsland-BG4.jpg");
+    width: 100%;
     border-radius: 0px;
 
-    background-position: top, left;
+    background-position: left, top  !important;
 
     background-size: cover;
 
-    position: relative;
+  
     background-repeat: no-repeat;
     background-color: #160202;
 }
@@ -210,7 +212,7 @@
 
 .movieposter {
     margin-right: 20px;
-    width: 160px;
+    width: 100px ;
     transition: 0.3s;
 }
 
@@ -257,4 +259,20 @@
     color: white;
 
     font-family: 'Noto Sans', sans-serif;
+}
+
+.wb-social-icon {
+    text-decoration: none;
+    text-underline-position: none;
+    color: white;
+
+
+}
+
+.wb-social-icon:hover {
+    text-decoration: none;
+    text-underline-position: none;
+    color: dodgerblue;
+
+
 }
