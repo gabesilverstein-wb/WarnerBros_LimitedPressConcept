@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="212.766" height="42.708" viewBox="0 0 212.766 42.708">
+  <g id="Group_83" data-name="Group 83" transform="translate(-1011.577 -26.146)">
+    <path id="User_Circle_Icon___Font_Awesome-21" data-name="User Circle Icon _ Font Awesome-21" d="M21.354,8A21.354,21.354,0,1,0,42.708,29.354,21.35,21.35,0,0,0,21.354,8Zm0,8.266a7.577,7.577,0,1,1-7.577,7.577A7.577,7.577,0,0,1,21.354,16.266Zm0,29.62A16.5,16.5,0,0,1,8.74,40.014a9.6,9.6,0,0,1,8.481-5.149,2.107,2.107,0,0,1,.611.095,11.4,11.4,0,0,0,3.522.594,11.357,11.357,0,0,0,3.522-.594,2.107,2.107,0,0,1,.611-.095,9.6,9.6,0,0,1,8.481,5.149A16.5,16.5,0,0,1,21.354,45.886Z" transform="translate(1164 18.146)" fill="#fff"/>
+    <path id="User_Circle_Icon___Font_Awesome-29" data-name="User Circle Icon _ Font Awesome-29" d="M0,118.193V108.085a.786.786,0,0,1,1.341-.555l5.054,5.054a.786.786,0,0,1,0,1.111l-5.054,5.054A.786.786,0,0,1,0,118.193Z" transform="translate(1331.64 44.188) rotate(90)" fill="#fff"/>
+    <path id="User_Circle_Icon___Font_Awesome-20" data-name="User Circle Icon _ Font Awesome-20" d="M19.7,17.273l-3.89-3.89a.936.936,0,0,0-.663-.273h-.636a8.112,8.112,0,1,0-1.4,1.4v.636a.936.936,0,0,0,.273.663l3.89,3.89a.933.933,0,0,0,1.323,0l1.1-1.1A.941.941,0,0,0,19.7,17.273ZM8.116,13.11A4.994,4.994,0,1,1,13.11,8.116,4.991,4.991,0,0,1,8.116,13.11Z" transform="translate(1088.649 37.51)" fill="#fff"/>
+    <line id="Line_1" data-name="Line 1" y2="40" transform="translate(1137.577 28.042)" fill="none" stroke="#fff" stroke-width="1"/>
+    <text id="Search" transform="translate(1011.577 33)" fill="#fff" font-size="20" font-family="'WarnerBros\.Sans-Bold', 'Warner Bros\. Sans'" font-weight="700"><tspan x="-30.61" y="21">Search</tspan></text>
+  </g>
+</svg>

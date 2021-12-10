@@ -26,6 +26,23 @@
     height: 50px;
 }
 
+.search-account-nav2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-bottom: 0;
+   
+    list-style: none;
+}
+
+.search-child {
+
+    margin-left: auto;
+    order: 2;
+}
+
+
+
 .nav-link {
     display: block;
     padding: 0.5rem 5rem !important;
@@ -74,7 +91,7 @@
     /* Unicode character for "plus" sign (+) */
     color: white;
     font-weight: bold;
-  
+
     float: right;
     margin-left: 5px;
 }
@@ -86,11 +103,11 @@
 
 /* Style the collapsible content. Note: hidden by default */
 .content {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
 }
 
 

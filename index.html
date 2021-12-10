@@ -28,7 +28,7 @@
     <title>WM Press</title>
 </head>
 
-<div class="pos-f-t">
+<!-- <div class="pos-f-t">
     <div class="collapse" id="navbarToggleExternalContent">
         <div class="bg-dark p-4">
             <h4 class="text-white">Collapsed content</h4>
@@ -41,12 +41,12 @@
             <span class="navbar-toggler-icon"></span>
         </button>
     </nav>
-</div>
+</div> -->
 
 
 
-<nav class="nav wb-shadow">
-    <img class="wbtvd-logo" src="./images/wbtvdlogo_white.svg">
+<nav class="nav wb-shadow justify-content-lg-between">
+    <span> <img class="wbtvd-logo" src="./images/wbtvdlogo_white.svg"></span>
     <!-- <button onclick="myFunction()"> <i class="fas fa-chevron-down"></i> </button> -->
 
 
@@ -55,11 +55,11 @@
         <a><i class="fas fa-chevron-down "></i></a>
     </div>
 
-    <button type="button" class="collapsible">Open Collapsible</button>
-    <!-- CONTENT INSIDE HUB -->
+    <!-- <button type="button" class="collapsible">Open Collapsible</button>
+    
     <div class="content">
         <p>Lorem ipsum...</p>
-    </div>
+    </div> -->
 
     <!-- <div id="mySidebar" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
@@ -74,17 +74,20 @@
     <div id="myDIV">
         This is my DIV element.
     </div> -->
-    <div class="search-account-nav">
-        <a class="btn btn-sm nav-btn nav-search flex-right" onclick="showSearch();"><i class="far fa-search"></i></a>
-    </div>
-
-
-
-    <!-- <button onclick="myFunction()">Click Me</button>
-
-    <div id="myDIV">
-        This is my DIV element.
+    <!-- <div class="search-account-nav">
+        <a class="btn btn-sm nav-btn nav-search text-white flex-content-end" onclick="showSearch();"><i class="far fa-search"></i></a>
     </div> -->
+    <span >
+
+        <img class="search-account-nav2" src="./images/search3.svg">
+
+    </span>
+    <!-- <button onclick="myFunction()">Click
+        Me</button>
+
+        <div id="myDIV">
+            This is my DIV element.
+        </div> -->
 
 
     <!-- <a class="nav-link active" href="#">Active</a>
@@ -183,8 +186,126 @@
 
             </div>
 
+           
     </main>
 
+ <!-- Footer -->
+ <footer class="text-center text-lg-start mt-5 text-white" style="width: 100%;" style="background-color: rgba(33, 62, 228, 0.05);">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+            <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+           
+                <i class="fab fa-facebook-f mr-5" style="margin-right: 50px;"></i>
+           
+            
+                <i class="fab fa-twitter mr-5" style="margin-right: 50px;"></i>
+            
+           
+           
+                <i class="fab fa-instagram mr-5" style="margin-right: 50px;"></i>
+          
+           
+        </div>
+        <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+        <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <!-- Content -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        <img  src="./images/wbtvdlogo_white.svg">
+                    </h6>
+                    <p>
+                        Here you can use rows and columns to organize your footer content. Lorem ipsum
+                        dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        Products
+                    </h6>
+                    <p>
+                        <a href="#!" class="text-reset">Angular</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">React</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">Vue</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">Laravel</a>
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        Useful links
+                    </h6>
+                    <p>
+                        <a href="#!" class="text-reset">Pricing</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">Settings</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">Orders</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">Help</a>
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        Contact
+                    </h6>
+                    <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                    <p>
+                        <i class="fas fa-envelope me-3"></i>
+                        info@example.com
+                    </p>
+                    <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                    <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+        </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-2" style="background-color: rgba(33, 62, 228, 0.05);">
+        TM & © 2021 Warner Bros. Entertainment Inc. All rights reserved.
+
+    </div>
+    <!-- Copyright -->
+</footer>
+<!-- Footer -->
 
     <!-- Optional JavaScript; choose one of the two! -->
 
